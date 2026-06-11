@@ -1,38 +1,24 @@
-//  Los tipos de dato son las distintas formas o definiciones que se tienen para almacenar datos en las variables. Cuando se declara una variable
-// y se inicializa, se le está asignando un valor y ese valor es un tipo de dato; es decir: entero, decimal, booleano, cadena o carácter entre otros.
+// String: para cadenas de texto
+let nombre = "María"; // Declaración de una variable de tipo String
+console.log(nombre); // Muestra el valor de la variable "nombre" en la consola
+console.log(typeof nombre); // Muestra el tipo de dato de la variable "nombre" en la consola
 
-//  En JavaScript, los tipos de datos se dividen en dos categorías: primitivos y objetos. Los tipos de datos primitivos incluyen:
+// Number: para números enteros y decimales
+let edad = 30; // Declaración de una variable de tipo Number
+console.log(edad); // Muestra el valor de la variable "edad" en la consola
+console.log(typeof edad); // Muestra el tipo de dato de la variable "edad" en la consola
 
-//  - Number: para números enteros y decimales.
-//  - String: para cadenas de texto.
-//  - Boolean: para valores verdaderos o falsos.
-//  - Null: para representar la ausencia de valor.
-//  - Undefined: para variables que no han sido asignadas.
-//  - Symbol: para valores únicos e inmutables.
+// Boolean: para valores verdaderos o falsos
+let activo = true; // Declaración de una variable de tipo Boolean
+console.log(activo); // Muestra el valor de la variable "activo" en la consola
+console.log(typeof activo); // Muestra el tipo de dato de la variable "activo" en la consola
 
-//  Los objetos, por otro lado, son estructuras de datos más complejas que pueden contener múltiples valores y funciones. Algunos ejemplos de objetos en JavaScript incluyen:
-//  - Array: para almacenar listas de valores.
-//  - Object: para almacenar pares clave-valor.
-//  - Function: para definir funciones.
-//  Es importante entender los tipos de datos en JavaScript, ya que esto afecta cómo se manipulan y se comportan las variables en el código. Por ejemplo, 
-// al realizar operaciones matemáticas, es crucial asegurarse de que los valores sean del tipo Number para evitar errores o resultados inesperados. Además,
-//  al trabajar con cadenas de texto, es necesario utilizar el tipo String para garantizar que las operaciones de concatenación y manipulación de texto
-//  funcionen correctamente.
+// Undefined: para variables que no han sido asignadas
+let usuario; // Declaración de una variable sin asignar un valor
+console.log(usuario); // Muestra el valor de la variable "usuario" en la consola (undefined)
+console.log(typeof usuario); // Muestra el tipo de dato de la variable "usuario" en la consola (undefined)
 
-let nombre ="Giorgio"; // String o cadena de texto
-let cantidad = 10  // Number o numero entero
-let precio = 15.5; // Number o numero decimal 
-let disponible = true;  // Boolean
-let descripcion = null; // Null
-
-console.log("Nombre:", nombre);
-console.log("Cantidad:", cantidad);
-console.log("Precio:", precio);
-console.log("Disponible:", disponible);
-console.log("Descripción:", descripcion);
-
-document.write ("Nombre: " + nombre + "<br>","Cantidad: " + cantidad + "<br>", "Precio: " + precio + "<br>", "Disponible: " + disponible + "<br>",
-"Descripción: " + descripcion); 
-
-console.log ("Nombre: ",nombre,"Cantidad: ", cantidad , "Precio: ",  precio , "Disponible: ", disponible ,
-"Descripción: ", descripcion);
+// Null: para representar la ausencia de valor
+let dato = null; // Declaración de una variable de tipo Null
+console.log(dato); // Muestra el valor de la variable "dato" en la consola
+console.log(typeof dato); // Muestra el tipo de dato de la variable "dato" en la consola

@@ -1,19 +1,24 @@
-let nombre, edad, direccion, movil, email;
+// Operadores aritméticos: Son los operadores que se utilizan para realizar operaciones matemáticas básicas, como suma (+), resta (-), multiplicación (*), división (/),
+//  módulo (%) y exponenciación (**).
+let a = 10;
+let b = 5;
 
-nombre = prompt("Ingrese su nombre: "); // Se piden los datos al usuario a través de la función prompt, que muestra un cuadro de diálogo para ingresar información. El valor ingresado se asigna a la variable correspondiente.
-edad = prompt("Ingrese su edad: ");
-direccion = prompt("Ingrese su dirección: ");
-movil = prompt("Ingrese su número de móvil: ");
-email = prompt("Ingrese su correo electrónico: ");
+console.log(a + b); // Suma: 15
 
-console.log("Nombre:", nombre); // Se muestra la información ingresada por el usuario en la consola del navegador utilizando console.log. Cada dato se etiqueta con su tipo para mayor claridad.
-console.log("Edad:", edad);
-console.log("Dirección:", direccion);
-console.log("Móvil:", movil);
-console.log("Email:", email);
+// Resta, multiplicación, división, y modulo
+console.log(a - b); // Resta: 5
+console.log(a * b); // Multiplicación: 50
+console.log(a / b); // División: 2
+console.log(a % b); // Módulo: 0
 
-document.writeln("Tu nombre es: ", nombre, "<br>"); // Se muestra la información ingresada por el usuario en la página web utilizando document.writeln. Cada dato se etiqueta con su tipo para mayor claridad.
-document.writeln("Tu edad es: ", edad, "<br>");
-document.writeln("Tu dirección es: ", direccion, "<br>");
-document.writeln("Tu número de móvil es: ", movil, "<br>");
-document.writeln("Tu correo electrónico es: ", email, "<br>");
+//Incremento y decremento: Son los operadores que se utilizan para aumentar o disminuir el valor de una variable en 1.
+// El operador de incremento es ++ y el operador de decremento es --.
+
+let numero = 10;
+numero++; // Incremento: numero ahora es 11
+
+console.log(numero); // Muestra el valor de numero después del incremento: 11
+
+numero--; // Decremento: numero ahora es 10
+
+console.log(numero); // Muestra el valor de numero después del decremento: 10

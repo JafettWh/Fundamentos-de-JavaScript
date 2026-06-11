@@ -1,22 +1,22 @@
-let a, b;
-let suma, resta, multiplicacion, division, residuo, potencia;
-a =  parseInt(prompt("Ingrese el primer número: "));
-b = parseFloat(prompt("Ingrese el segundo número: "));
+// Concatenación de strings
+let nombre = "Ana";
+let apellido = "Ruiz";
 
-// Resultados de las operaciones matemáticas básicas
-suma = a + b; // Suma de a y b
-resta = a - b; // Resta de a y b
-multiplicacion = a * b; // Multiplicación de a y b
-division = a / b;   // División de a entre b      
-residuo = a % b;   // Residuo de a entre b
-potencia = a ** b; // Potencia de a elevado a b
+let nombreCompleto = nombre + " " + apellido;
 
-// Imprimir resultados; 
+console.log(nombreCompleto); // Muestra "Ana Ruiz" en la consola
 
-document.writeln("La suma es: ", suma, "<br>"); // Se muestra el resultado de cada operación en la página web utilizando document.writeln. Cada resultado se etiqueta con su tipo para mayor claridad.
-document.writeln("La resta es: ", resta, "<br>");
-document.writeln("La multiplicación es: ", multiplicacion, "<br>");
-document.writeln("La división es: ", division, "<br>");
-document.writeln("El residuo es: ", residuo, "<br>");
-document.writeln("La potencia es: ", potencia, "<br>");
+// Template Strings
+let nombres = "Pedro Miranda";
+let edad = 22;
 
+console.log(`Hola ${nombres}`); // Muestra "Hola Pedro Miranda" en la consola
+console.log(`Edad: ${edad} años`); // Muestra "Edad: 22 años" en la consola
+
+// Métodos de strings
+
+let texto = "JavaScript";
+
+console.log(texto.length); // Muestra la longitud del string: 10
+console.log(texto.toUpperCase()); // Muestra el string en mayúsculas: "JAVASCRIPT"
+console.log(texto.toLowerCase()); // Muestra el string en minúsculas: "javascript"
